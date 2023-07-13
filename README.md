@@ -8,20 +8,8 @@ The dataset consists of job offers with the following fields:
 
 - **Job Title**: The title of the job offer.
 - **Description**: Detailed description of the job offer.
-- **Skills**: The skills required for the job.
-- **ESCO Label**: The ESCO (European Skills, Competences, Qualifications and Occupations) label associated with the job.
-
-## Data Format
-
-The data is provided in a tabular format with the following columns:
-
-| Column       | Description                                                                 |
-|--------------|-----------------------------------------------------------------------------|
-| job_title    | The title of the job offer.                                                 |
-| description  | Detailed description of the job offer.                                      |
-| skills       | The skills required for the job.                                            |
-| esco_id      | The ESCO (European Skills, Competences, Qualifications and Occupations) label associated with the job. |
-
+- **Skills**: The minimum skills required for the job.
+- **ESCO Label**: The [ESCO](https://esco.ec.europa.eu/en/classification/occupation_main)(European Skills, Competences, Qualifications and Occupations) label associated with the job.
 
 ## Usage
 
@@ -35,7 +23,3 @@ For more details about this dataset, please refer to the [Kaggle page](https://w
 ## Citation
 
 Please use the following citation when referencing this dataset:
-
-
-
-

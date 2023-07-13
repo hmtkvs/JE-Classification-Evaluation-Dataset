@@ -17,9 +17,8 @@ This dataset is intended for research purposes, specifically for the evaluation 
 
 ## Source
 
-For more details about this dataset, please refer to the [Kaggle page](https://www.kaggle.com/datasets/HRAnalyticRepository/job-classification-dataset/).
+For more details about the unlabelled/original version of this dataset, please refer to the [Kaggle page](https://www.kaggle.com/datasets/HRAnalyticRepository/job-classification-dataset/).
 # JT-Classification-Evaluation-Dataset
 
 ## Citation
 
-Please use the following citation when referencing this dataset:

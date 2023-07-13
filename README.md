@@ -1,24 +1,41 @@
-# Job Offer and Applicant CV Classification Using Rich Information from a Labour Market Taxonomy
+# Job Experience Classification Evaluation Dataset
 
 This repository contains the evaluation dataset used in our paper titled "Job Offer and Applicant CV Classification Using Rich Information from a Labour Market Taxonomy". 
 
-## Dataset
+## Dataset Description
 
-The dataset is a static snapshot containing some fictional job class specs information. Typically, job class specs have information which characterize the job class- its features, and a label- in this case a pay grade - something to predict that the features are related to.
+The dataset consists of job offers with the following fields:
 
-### Content
+- **Job Title**: The title of the job offer.
+- **Description**: Detailed description of the job offer.
+- **Skills**: The skills required for the job.
+- **ESCO Label**: The ESCO (European Skills, Competences, Qualifications and Occupations) label associated with the job.
 
-The dataset has the following structure:
+## Data Format
 
-|       | job_title    | description                                                                                                                                                                                                                                                        | skills   | esco_id                                   |
-|------:|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:------------------------------------------|
-| 19040 | Phlebotomist | High school diploma or equivalent is required \nExperience is required \n Requirements: High School diploma; previous phlebotomy experience required. Duties Include: Performs a variety of functions related to accurate and safe collections of blood specimens. |          | 5329_5ee264b2-9bc5-40f6-9db3-c87143af6b2d |
+The data is provided in a tabular format with the following columns:
 
-Please note that this data is purely fictional.
+| Column       | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| job_title    | The title of the job offer.                                                 |
+| description  | Detailed description of the job offer.                                      |
+| skills       | The skills required for the job.                                            |
+| esco_id      | The ESCO (European Skills, Competences, Qualifications and Occupations) label associated with the job. |
 
-### Inspiration
 
-The intent is to use machine learning classification algorithms to predict PG from Educational level through to Financial budget information. Typically, job classification in HR is time consuming and cumbersome as a manual activity. The intent is to show how machine learning and People Analytics can be brought to bear on this task.
+## Usage
+
+This dataset is intended for research purposes, specifically for the evaluation of job offer and applicant CV classification models. Please cite our paper if you use this dataset in your research.
+
+## Source
 
 For more details about this dataset, please refer to the [Kaggle page](https://www.kaggle.com/datasets/HRAnalyticRepository/job-classification-dataset/).
 # JT-Classification-Evaluation-Dataset
+
+## Citation
+
+Please use the following citation when referencing this dataset:
+
+
+
+
